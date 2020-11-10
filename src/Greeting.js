@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Greeting() {
+export function Greeting() {
     const isMorning = (new Date()).getHours < 12;
 
     return isMorning
@@ -17,5 +17,3 @@ function Greeting() {
         </>
       );
 }
-
-export default Greeting;

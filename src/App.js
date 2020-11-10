@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import Greeting from './Greeting';
+import { Greeting } from './Greeting';
 import './App.css';
 
 function App() {
