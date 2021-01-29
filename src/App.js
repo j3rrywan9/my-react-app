@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import { Greeting } from './Greeting';
 import './App.css';
+import Person from './Person/Person';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Person />
     </div>
   );
 }
