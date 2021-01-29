@@ -23,6 +23,8 @@ function App() {
         </a>
       </header>
       <Person />
+      <Person />
+      <Person />
     </div>
   );
 }
